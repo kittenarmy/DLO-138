@@ -78,7 +78,7 @@ void repaintLabels()	{
 void initDisplay()	{
 // ------------------------
 	tft.reset();
-	tft.begin(0x9341);
+	tft.begin(0x9325);	// 9325
 	tft.setRotation(LANDSCAPE);
 	tft.fillScreen(ILI9341_BLACK);
 	banner();
