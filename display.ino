@@ -1,6 +1,6 @@
 // TFT display constants
 #define PORTRAIT 		0
-#define LANDSCAPE 		1
+#define LANDSCAPE 		3	// 1 is upside down on 9325 
 
 #define TFT_WIDTH		320
 #define TFT_HEIGHT		240
