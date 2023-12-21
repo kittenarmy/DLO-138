@@ -80,7 +80,8 @@ void initDisplay()	{
 	tft.reset();
 	tft.begin(0x9325);	// 9325
 	tft.setRotation(LANDSCAPE);
-	tft.fillScreen(ILI9341_BLACK);
+	tft.fillRect(0, 0, 320, 240, ILI9341_BLACK); // fillScreen not working properly here.
+	//tft.fillScreen(ILI9341_BLACK);
 	banner();
 
 	delay(4000);
